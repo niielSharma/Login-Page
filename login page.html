@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Login page</title>
+		<style>
+			body{
+				margin: 0%;
+				background: url('https://bit.ly/3yXrxqf') no-repeat center top fixed;
+				background-size: cover;
+			}			
+			.container { 
+				margin-left: 42%;
+				width: 25%;
+				margin-top: 17%;
+				padding: 10px;
+			}
+			input {
+				background: none;
+				border: none;
+				color:white;
+				max-width: max-content;
+				border-bottom: 2px solid red;
+				font-family: Arial, sans-serif;
+				font-size: 17px;
+			}	
+			button { 
+				margin-top: 17px;
+			    background: none;
+				color: white;
+				font-family: Arial, sans-serif;
+				padding: 9px 12px;
+				border-radius: 5px;
+				border-color: red;
+				transition-duration: 0.7s;
+				cursor: pointer;
+			}
+			button:hover{
+				background-color: #ff1a75;
+				color: white space;
+			}
+			h2{
+				color: white;
+				max-width: max-content;
+				border-bottom: 2px solid red;
+				font-family: Arial, sans-serif;
+				font-size: 30px;
+			}
+			i{
+				color:white;
+			}
+			.mt-15 {
+				margin-top: 15px;
+			}
+		</style>
+		
+		<script src="https://kit.fontawesome.com/fe5c23ee48.js" crossorigin="anonymous"></script>
+    </head>
+	<body>
+		<div class='container'>
+			<h2>Log In</h2>
+			<form>
+				<i class="fas fa-envelope"></i>
+				<input type='email' required placeholder='Enter Your Email'></input>
+				<br/>
+				<i class="fas fa-lock"></i>
+				<input class='mt-15' type='password' required placeholder='Enter Your Password'></input>
+				<br/>
+				<button type='submit'>Sign In</button>
+			</form>
+		</div>
+	</body>
+	</html>
